@@ -18,7 +18,7 @@ public class WordList{
         this.data = other.data;
     }
 
-  /*   public int numberofWords( String data)
+     public int numberofWords( String data)
     {
        this.data = data;
        wordCount = 0; // reset
@@ -29,7 +29,7 @@ public class WordList{
        String[] parts = trimmed.split("\\s+");
        wordCount = parts.length;
        return wordCount;
-}*/
+}
 
     /**
      * Return a map of word --> frequency for the provided input.
@@ -61,4 +61,5 @@ public class WordList{
     {
         return "WordList(" + wordCount + "): " + data;
     }
+
 }
