@@ -12,8 +12,8 @@ public class App {
         System.out.println("data : " + enterdata);
 
         WordList w1 = new WordList();
-       /*  int count = w1.numberofWords(enterdata);
-        System.out.println("number of words : " + count);*/
+         int count = w1.numberofWords(enterdata);
+        System.out.println("number of words : " + count);
 
     System.out.println("word frequencies:");
     java.util.Map<String, Integer> freq = w1.wordFrequencies(enterdata);
@@ -25,3 +25,4 @@ public class App {
     }
 
 }
+
